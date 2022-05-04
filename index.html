@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>Black & White</title>
+	<link rel="stylesheet" type="text/css" href="./css/basic.css" title="normal">
+	<link rel="alternate stylesheet" type="text/css" href="./css/bigger-font.css" title="big-font">
+	<script src="js/styleswitcher.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="kipozicional">
+                <a href="#content">Jump to content</a>
+            </div>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./media/logo.png" alt="Black&White Logo" height="75">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" id="curr-page" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="false" href="pages/read.html">Read</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="false" href="pages/characters.html">Characters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="false" href="pages/world.html">The World</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="false" href="pages/gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="false" href="pages/videos.html">Videos</a>
+                        </li>
+                    </ul>
+                    <div id="change-view">
+                        <a id="bigger-view" href="#" onclick="setActiveStyleSheet('big-font'); return false;"><div><img src="./media/font-inc.png" alt="Increase font icon"></div></a>
+                        <a id="normal-view" href="#" onclick="setActiveStyleSheet('normal'); return false;"><div><img src="./media/font-dec.png" alt="Increase font icon"></div></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="content">
+        <img src="media/main-bg.png" alt="Background image" id="main-bg">
+        <hr>
+        <section>
+            <div class="card container-lg main-read">
+                <div class="card-body">
+                    <h1 class="card-title">Read</h1>
+                    <h2 class="card-subtitle mb-2">Chapter 1</h2>
+                    <p class="card-text">
+                        A place where you can find all the stories of the world. Each having its own planet or even
+                        dimension. Not
+                        knowing about each other, they co-exist peacefully. Only with the strongest space magic can one
+                        cross the
+                        well-guarded borders of these worlds. In the middle of it all, there's a tiny planet. <span
+                            class="d-none d-md-inline">This planet has a
+                            secret. Every now and then, a lost soul arrives, and the planet grants them a body. When they
+                            fall asleep,
+                            they return to their original worlds into their original bodies and think of it as a dream. But
+                            then again,
+                            when the night comes, they find themselves on the tiny planet in their new bodies, just like
+                            they've never
+                            left in the first place. On this planet there are a handful individuals who use magic. The
+                            people call them
+                            『Fairies』.</span>
+                    </p>
+                    <div class="row">
+                        <div class="col-12 col-md-6"><a href="pages/Chapter1.html#"
+                                class="card-link button button-left main-button">Continue Reading</a></div>
+                        <div class="col-12 col-md-6"><a href="pages/read.html"
+                                class="card-link button button-right main-button">More Stories</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        
+        <section>
+            <div class="card chara-main">
+                <h1 class="card-title">Characters</h1>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="container d-block w-100">
+                            <div class="row">
+                                <div class="col-6 col-md-4">
+                                    <img src="./media/robina.png" class="img-fluid rounded-start float-end" alt="Picture of Robina">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h2 class="text-center text-md-start">Robina</h2>
+                                    <p>
+                                        <b>Robina</b> is the unofficial guardian fairy of Cyan. Although she claims that
+                                        she is only there to protect Prince, she cares deeply about the well-being
+                                        of the people.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="container d-block w-100">
+                            <div class="row">
+                                <div class="col-6 col-md-4">
+                                    <img src="./media/rosalia.png" class="img-fluid rounded-start float-end" alt="Picture of Rosalia">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h2 class="text-center text-md-start">Rosalia</h2>
+                                    <p>
+                                        <b>Rosalia</b> is the Crown Princess of Divia. There's a lot of pressure on her, so
+                                        she's ready to do anything just to achieve her goals. But behind the mask,
+                                        she's just a girl, who wants to be loved.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="print-break">
+            <div class="regions-main">
+                <a href="./pages/Cyan.html">
+                    <div class="card regions-main bg-dark text-white">
+                        <img src="./media/cyan.png" class="card-img" alt="Picture of Cyan">
+                        <div class="card-img-overlay">
+                            <h1 class="card-title">Cyan</h1>
+                        </div>
+                    </div>
+                </a>
+                <a href="./pages/Divia.html">
+                    <div class="card regions-main bg-dark text-white">
+                        <img src="./media/Divia.png" class="card-img" alt="Picture of Divia">
+                        <div class="card-img-overlay">
+                            <h1 class="card-title">Divia</h1>
+                        </div>
+                    </div>
+                </a>
+                <a href="./pages/world.html">
+                    <div class="card regions-main bg-dark text-white">
+                        <div class="card-img-overlay">
+                            <h1 class="card-title">More Regions</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <div class="container card">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <video class="ratio ratio-16x9" controls poster="media/RPG.png" width="750">
+                            <source src="media/RPG.mp4" type="video/mp4">
+                            <p>Your browser does not support playback of this video.</p>
+                            <p><a href="media/RPG.mp4">rpg.mp4 can be downloaded</a>
+                            </p>
+                        </video>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card-body">
+                            <h1 class="card-title text-center text-md-start"><abbr title="Role-Playing Game">RPG</abbr></h1>
+                            <p class="card-text">
+                                This video is featuring two of our couples from Cyan. Prince x Robina and Ryat x Anna.</p>
+                            <p class="card-text">
+                                <b>Song:</b> <cite>Role-Playing Game</cite></p>
+                            <p class="card-text">
+                                <b>Artists:</b> Mafumafu, Soraru, Sakata, Urata
+                            </p>
+                            <a href="./pages/videos.html" class="button vid-button">More Videos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <img src="media/logo.png" alt="Black&White Logo">
+
+        <nav class="row">
+            <div class="col-12 col-md-2"><a href="pages/message.html">Leave a message</a></div>
+            <div class="col-12 col-md-2"><a href="pages/feedback.html">Feedback</a></div>
+            <div class="col-12 col-md-2"><a href="pages/sources.html">Stuff I do not own</a></div>
+        </nav>
+        <hr>
+        <div class="icons">
+            <a href="https://www.reddit.com/r/Black_White/" target="_blank"><img src="media/reddit.png" id="red"
+                    alt="reddit"></a>
+            <a href="https://www.youtube.com/channel/UC9fxP_16n7G7TLmW8YXFRgw" target="_blank"><img
+                    src="media/youtube.png" id="yt" alt="youtube"></a>
+            <a href="https://discord.gg/UrMrAEkkYw" target="_blank"><img src="media/discord.png" id="dc"
+                    alt="discord"></a>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

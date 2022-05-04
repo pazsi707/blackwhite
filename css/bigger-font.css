@@ -1,0 +1,21 @@
+@import url('basic.css');
+
+html {
+    font-size: 1.5em;
+}
+
+.navbar-nav{font-size: 1.2rem;}
+
+footer{height: 25rem;}
+
+footer.icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons>a>img{
+    margin: 0 1rem;
+}
+
+a#bigger-view{display: none;}
+a#normal-view{display: inline-block;}
