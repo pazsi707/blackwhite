@@ -271,10 +271,11 @@ footer>.row, #footer>.row{
 
 /* read */
 
-.read>main>a, h2{
+.read>main>a, summary{
     margin-left: 2em;
     margin-right: 2em;
     margin-top: 3rem;
+    display: block;
 }
 
 .read>main>hr{
