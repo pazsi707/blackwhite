@@ -427,6 +427,11 @@ article details>summary{
     justify-content: center;
 }
 
+.letter{
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* sources */
 
 .src{
