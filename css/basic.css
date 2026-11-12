@@ -382,6 +382,10 @@ figure{
     background-image: url(../media/Latem.png);
 }
 
+#forbidden-forest{
+    background-image: url(../media/forbiddenforest.jpg);
+}
+
 /* regions */
 
 .region-description{
