@@ -383,7 +383,11 @@ figure{
 }
 
 #forbidden-forest{
-    background-image: url(../media/forbiddenforest.jpg);
+    background-image: url(../media/forbiddenforest.png);
+}
+
+#miriem{
+    background-image: url(../media/miriem.png);
 }
 
 /* regions */
